@@ -1,0 +1,122 @@
+
+
+
+@font-face {
+    font-family: 'Editorial';
+    font-weight: normal;
+    font-style: normal;
+    src: url('PPEditorialNew-Ultralight.woff') format('woff');
+}
+  
+@font-face {
+    font-family: 'Suisse';
+    font-weight: normal;
+    font-style: normal;
+    src: url('suisseintl-light.woff') format('woff');
+}
+
+body {
+    background-color: rgb(219, 221, 219);
+  }
+
+/* Solid border */
+hr.solid {
+    border-top: 1px solid #000;
+    border-bottom: #000;
+  }
+
+h1 {
+    color: black;
+    font-size: 50px;
+    letter-spacing: -1px;
+}
+
+h2 {
+    
+    color: black;
+    font-size: 40px;
+    letter-spacing: -1px;
+    border-style:solid;
+    border-width: 1px;
+    border-style: groove;
+    border-color:#000;
+    border-radius: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    width:fit-content;
+
+
+}
+
+h3 {
+    
+    letter-spacing: -0.5px;
+    color: black;
+    font-size: 30px;
+}
+
+
+h4 {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+p {
+
+    color: black;
+    font-size: 18px;
+}
+
+
+
+li {
+    font-size: 15px;
+}
+
+div {
+    margin: 20px;
+  }
+
+a {
+    font-size:30px
+}
+
+
+.two {
+    font-size: 20px;
+    border-style:solid;
+    border-width: 1px;
+    border-style: groove;
+    border-color:#000;
+    border-radius: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    width:fit-content;
+    text-decoration:none;
+    letter-spacing 5px;
+}
+.two:hover {
+    font-size: 20px;
+    border-style:solid;
+    border-width: 1px;
+    
+    border-style: groove;
+    border-color:#000;
+    border-radius: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    width:fit-content;
+    text-decoration:none;
+    letter-spacing 5px;
+    background: rgb(211, 255, 50);
+}
+
+  a:visited {
+    color:rgba(0, 0, 0, 0.422)
+  }
